@@ -1,0 +1,164 @@
+body{
+  font-family:"游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: #29abe2;
+  color: #fff;
+}
+html { font-size: 62.5%; }
+/*common
+---------------------------------------------------------------------*/
+.btn{
+  text-align: center;
+}
+.btn{
+  min-width: 180px;
+  padding: 15px 20px;
+  line-height: 1;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  border-radius: 4px;
+}
+.btn_contact{
+  color: #fff;
+  border: 1px solid #fff;
+}
+.btn_submit{}
+.navbar{
+  z-index: 100;
+}
+.navbar-nav{
+  /*float: right;*/
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:link,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active,
+.navbar-default .navbar-nav>li>a:visited,
+a.btn_contact:link,
+a.btn_contact:hover,
+a.btn_contact:active,
+a.btn_contact:visited{
+  color: #fff;
+  text-decoration: none;;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active{
+  opacity: 0.5;
+}
+a.btn_contact:hover,
+a.btn_contact:active{
+  /*opacity: 0.5;*/
+  background-color: rgba(255,255,255,0.5);
+}
+header{
+  background: #666;
+  position: relative;
+}
+header a:link, header a:visited{
+  color: #fff;
+  text-decoration: underline;
+}
+header a:hover, header a:active{
+  color: #fff;
+}
+.navbar-default{
+  background: none;
+  border: none;
+}
+#gnavi li{
+  list-style: none;
+  display: inline-block;
+}
+#mainVisual{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+#header .container{
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  margin-top: -15%;
+}
+.content{
+  padding: 100px 0 60px;
+}
+.content h3 {
+    font-size: 18px;
+}
+.content h4 {
+    font-size: 18px;
+}
+.content h5 {
+    font-size: 18px;
+}
+.content>h2{
+  line-height: 1;
+  margin:0;
+}
+.content>h2+.container{
+  margin-top: 56px;
+}
+.content p.box_contact{
+  margin: 50px 0 0;
+}
+.content a:link, .content a:visited{
+  color: #fff;
+  text-decoration: underline;
+}
+.content a:hover, .content a:active{
+  color: #fff;
+}
+.content.bg_wht{
+  background: #fff;
+  color: #333;
+}
+.content.bg_wht a:link, .content.bg_wht a:visited{
+  color: #29abe2;
+  text-decoration: underline;
+}
+.content.bg_wht a:hover, .content.bg_wht a:active{
+  color: #29abe2;
+}
+.row{
+}
+.content .col-md-6{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.cont_body{
+  text-align: left;
+  margin-top: 1em;
+}
+#service{}
+#works{}
+#company{}
+#map{
+  height: 400px;
+}
+#contact{
+  background: #fff;
+}
+#media{
+  background: #f2f2f2;
+  line-height: 1;
+  padding: 25px;
+  display: none;
+}
+footer{
+  padding-top: 25px;
+  min-height: 200px;
+}
+header:after,footer:after,.content:after,
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}

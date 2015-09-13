@@ -1,0 +1,122 @@
+#header p{
+  margin:0;
+}
+#logo{
+  margin: 0;
+}
+.copy{
+  font-family: ".HiraKakuInterface-W1";
+  margin: 0;
+}
+.carousel-arrow-left{
+  position: absolute;
+  left:30px;
+  top: 50%;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../../asset/img/arrow_carousel_l.png);
+  background-size: 17px 32px;
+  background-repeat: no-repeat;
+}
+.carousel-arrow-right{
+  position: absolute;
+  right:30px;
+  top: 50%;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../../asset/img/arrow_carousel_r.png);
+  background-size: 17px 32px;
+  background-repeat: no-repeat;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:link{
+  /*background: rgba(255,255,255,0.2)*/
+}
+.list_news{
+  padding: 0;
+}
+.list_news li{
+  margin-top: 1em;
+  list-style: none;
+}
+.list_news li:first-child{
+  padding-top: 1em;
+}
+.profile_company {
+  width: 100%;
+}
+.profile_company th{
+  width: 6em;
+  border-bottom: 1px dotted #fff;
+  padding: 1em 0;
+}
+.profile_company td{
+  border-bottom: 1px dotted #fff;
+  padding: 1em 0;
+}
+a.btn:link,a.btn:hover,a.btn:active,a.btn:visited{
+  text-decoration: none;
+}
+
+.form-control{
+  font-size: 18px;
+  height: auto;
+}
+
+/*-- media --*/
+#logo img{
+  width:489px;
+}
+.copy {
+  font-size: 36px;
+  padding:50px 15px;
+}
+/* @screen-xs-max */
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin: 0 -15px;
+  }
+  .navbar-toggle{
+    border: none;
+  }
+  .navbar-default .navbar-toggle,
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background: none;
+  }
+  .navbar-default .navbar-collapse{
+    background-color: rgba(255, 255, 255, 1);
+  }
+  #header .container{
+    margin-top: -25%;
+  }
+  #logo img{
+    width: 70%;
+  }
+  .copy {
+    font-size: 16px;
+    padding:25px 10px;
+  }
+  #header p.btn_contact-main{
+    margin-top: 80px;
+  }
+  .content h3:first-child{
+    margin-top: 0;
+  }
+  .col-md-6+.col-md-6>h3{
+    margin-top: 50px;
+  }
+}
+/* min-width: @screen-sm-min and max-width: @screen-sm-max */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/* min-width: @screen-md-min and max-width: @screen-md-max */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/* min-width: @screen-lg-min */
+@media (min-width: 1200px) {
+
+}
+
+
