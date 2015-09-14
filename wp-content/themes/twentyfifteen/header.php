@@ -32,8 +32,7 @@
   <script src="_asset/js/index.js" type="text/javascript"></script>
 </head>
 
-<body <?php body_class(); ?>>
-
+<body <?php //body_class(); ?>>
 
 <header id="header">
 

@@ -102,20 +102,19 @@ get_header(); ?>
             <ul class="list_news">
             <?php if ( have_posts() ) : ?>
             <?php
-            // Start the loop.
-            while ( have_posts() ) : the_post();
-              if ( is_single() ) :
-              the_title( sprintf( '<li><a href="%s">', esc_url( twentyfifteen_get_link_url() ) ), '</a></li>' );
+              // Start the loop.
+              while ( have_posts() ) : the_post();
+                if ( is_single() ) :
+                the_title( sprintf( '<li><a href="%s">', esc_url( twentyfifteen_get_link_url() ) ), '</a></li>' );
+                else :
+                the_title( sprintf( '<li><a href="%s">', esc_url( twentyfifteen_get_link_url() ) ), '</a></li>' );
+                endif;
+              // End the loop.
+              endwhile;
+              // If no content, include the "No posts found" template.
               else :
-              the_title( sprintf( '<li><a href="%s">', esc_url( twentyfifteen_get_link_url() ) ), '</a></li>' );
+                //get_template_part( 'content', 'none' );
               endif;
-            // End the loop.
-            endwhile;
-            // If no content, include the "No posts found" template.
-            else :
-              //get_template_part( 'content', 'none' );
-              <li>ただいま投稿されているお知らせはございません</li>
-            endif;
             ?>
             </ul>
           </div>
