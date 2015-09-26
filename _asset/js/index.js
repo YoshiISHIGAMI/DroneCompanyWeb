@@ -1,5 +1,10 @@
 $(function(){
+  "use strict";
+  
+  $('#gnavi a').smoothScroll();
+
   var windowH = $(window).height();
-  // alert(windowH)
   $('#header, #mainVisual, #mainVisual .item').css("height", windowH);
+  
+  
 });
