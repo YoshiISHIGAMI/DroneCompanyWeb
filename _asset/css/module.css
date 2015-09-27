@@ -72,21 +72,20 @@ a.btn:link,a.btn:hover,a.btn:active,a.btn:visited{
   font-size: 36px;
   padding:50px 15px;
 }
+#mainVisual .item{
+  background-size: cover;
+}
+#mainVisualImag01{
+  background:url(../img/mainvisual/505330149.jpg) no-repeat center center;
+}
+#mainVisualImag02{
+  background:url(../img/mainvisual/155158209.jpg) no-repeat center center;
+}
+#mainVisualImag03{
+  background:url(../img/mainvisual/454412281.jpg) no-repeat center center;
+}
 /* @screen-xs-max */
 @media (max-width: 768px) {
-  .navbar-nav {
-    margin: 0 -15px;
-  }
-  .navbar-toggle{
-    border: none;
-  }
-  .navbar-default .navbar-toggle,
-  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background: none;
-  }
-  .navbar-default .navbar-collapse{
-    background-color: rgba(255, 255, 255, 1);
-  }
   #header .container{
     margin-top: -25%;
   }

@@ -66,13 +66,57 @@ header a:link, header a:visited{
 header a:hover, header a:active{
   color: #fff;
 }
-.navbar-default{
-  background: none;
-  border: none;
+/* for PC */
+@media (min-width: 768px) {
+  .navbar-default{
+    background: none;
+    border: none;
 }
 #gnavi li{
   list-style: none;
   display: inline-block;
+}
+}
+/* for Tablet Smartphone */
+@media (max-width: 767px) {
+  .navbar-default{
+    background:none;
+    border:none;
+  }
+  /*.navbar-header{
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .navbar-header.collapsed{
+    background-color: rgba(0, 0, 0, 0);
+  }*/
+  .navbar-nav {
+    margin: 0 -15px;
+  }
+  .navbar-toggle{
+    border: none;
+  }
+  #btn-toggle-gnavi{
+    z-index: 100;
+  }
+  .navbar-default .navbar-toggle,
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background: none;
+  }
+  .navbar-default .navbar-collapse{
+    background-color: rgba(0, 0, 0, 0.5);
+    border:none;
+    padding-top: 50px;
+    /*margin-top: -50px;*/
+    position: absolute;
+    width: 100%;
+    top: 0;
+  }
+  .navbar-nav li{
+    border-top:1px solid rgba(255, 255, 255, 0.5)
+  }
+  .navbar-nav li a{
+    padding:15px 0;
+  }
 }
 #mainVisual{
   position: absolute;
