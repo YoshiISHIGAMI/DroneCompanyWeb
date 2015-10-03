@@ -19,6 +19,7 @@ html { font-size: 62.5%; }
   margin: 0 auto;
   letter-spacing: 2px;
   border-radius: 4px;
+  background:#ccc;
 }
 .btn_contact{
   color: #fff;
